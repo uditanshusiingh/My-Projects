@@ -1,0 +1,50 @@
+h1{
+    text-transform: uppercase;
+}
+fieldset{
+    
+    text-align: center;
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px 
+    
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+h1,h2{
+    font-family: Impact,sans-serif;
+}
+a{
+    color: black;
+}
+article{
+    display: block;
+    font-family: sans-serif;
+}
+.item p {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.flavour{
+    text-align: left;
+    width: 75%;  
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+div p{
+font-style: italic;
+}
+
+
+
