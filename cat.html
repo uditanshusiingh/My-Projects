@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Demo</title>
+</head>
+<body>
+    <h1>CatPhotoApp</h1><br>
+    <h2>Cat Photos</h2>
+    <p>See more <a href="https://www.google.com/search?sca_esv=0f23f44a810f0132&sxsrf=ACQVn09frnEweonXwggIEgX2-iw-8lPDwQ:1708441667068&q=cats&tbm=isch&source=lnms&prmd=ivsnmbtz&sa=X&ved=2ahUKEwivi72VmbqEAxVkd2wGHdHaC6wQ0pQJegQIEBAB&biw=1536&bih=730&dpr=1.25" target="_main">cat photos</a> on Google.</p>
+    <img src="relaxing-cat.jpg" alt="Cat">
+    <h2>Cat Lists</h2>
+    <h3>Things cats love:</h3>
+    <div>
+        <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasanga</li>
+        </ul>
+    </div>
+    <img src="lasagna.jpg" alt="lasanga">
+    <h2>Top 3 things cats hate:</h2>
+    <div>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+    </div>
+    <img src="cats.jpg" alt="Cats" >
+    <p>Cats <b>hate </b>other cats.</p>
+    <h1>Cat Form</h1>
+    <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        
+        <input type="radio" id="indoor" name="select">
+        <label for="indoor">Indoor</label>
+        <input type="radio" id="outdoor" name="select">
+        <label for="outdoor">outdoor</label>
+    </fieldset>
+    <fieldset>
+        <legend>What's your cat's personality?</legend>
+        
+        <input type="checkbox" id="loving" name="select" value="loving">
+        <label for="loving">Loving</label>
+        <input type="checkbox" id="lazy" name="select" value="lazy">
+        <label for="lazy">Lazy</label>
+        <input type="checkbox" id="energetic" name="select" value="energetic">
+        <label for="energetic">Energetic</label>
+    </fieldset><br>
+    <form action="https://www.google.com/search" target="_main">
+        <input placeholder="cat photo URL" type="text" name="q">
+        <button>Submit</button>
+    </form>
+    <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+</body>
+</html>
