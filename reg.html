@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <style>
+        body{
+            background-color: #1b1b32;
+        }
+    </style>
+    <div class="me">
+    <h1 id="me">Registration Form</h1>
+    <p id="me">Please fill out this form with the required information</p></div>
+    <br>
+    <fieldset>
+        <div>
+        <label for="first">enter your first name:<br><input type="text" id="first" class="content-box"></label><br>
+
+        <label for="last">enter your last name:<br><input type="text" id="last" class="content-box"></label><br>
+
+        <label for="email">enter your email:<br><input type="text" id="email" class="content-box"></label><br>
+
+        <label for="password">create a new password:<br><input type="text" id="password" class="content-box"></label>
+        </div>
+    </fieldset>
+    <fieldset>
+
+        <legend>Account type (required)</legend>
+        <br>
+        <form>
+            <input type="radio" id="personal" checked>
+            <label for="personal">Personal</label>
+            <br>
+            <input type="radio" id="business">
+            <label for="business">Business</label>
+        </form>
+        <br>
+    </fieldset>
+    <br>
+    <span>
+    <label for="file" class="input">Upload a profile picture:</label>
+    <br>
+    <input type="file" id="file" class="margin">
+    <br>
+    <label for="age" class="input">Input your age(years):</label>
+    <br>
+    <input type="text" id="age" class="margin">
+    <br>
+    <label for="age" class="input">How did you hear about us?</label>
+    <br>
+    <select name="feedback" id="feedback">
+        <option value="select">(select one)</option>
+        <option value="news">freeCodeCamp News</option>
+        <option value="youtube">freeCodeCamp Yputube Channel</option>
+        <option value="forum">freeCodeCamp Forum</option>
+        <option value="other">Other</option>
+    </select>
+    <br>
+    <label for="bio" class="input">Provide a bio:</label>
+    <br>
+    <textarea id="bio" placeholder="I like coding on the beach..."></textarea>
+    </span>
+    <br>
+    <span class="term">
+    <input type="checkbox" id="condition">
+    <label for="con" id="condition"> I accept the <a href="www.google.com">terms and conditions</a> </label>
+    </span>
+    <br>
+    <br>
+    <button type="submit" class="submit">Submit</button>
+
+</body>
+</html>
