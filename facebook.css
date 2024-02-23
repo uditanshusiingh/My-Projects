@@ -1,0 +1,13 @@
+h1{
+    color: #1b74e4;
+}
+*{
+    font-family: 'Courier New';
+}
+#search{
+    color: white;
+    background-color: black;
+}
+#login,#register{
+    background-color: aqua;
+}
