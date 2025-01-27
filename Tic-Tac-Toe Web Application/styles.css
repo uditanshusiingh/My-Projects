@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1734352749174-32c5f5919a02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGljJTIwdGFjJTIwZ2FtZTE2MDAqOTAwfGVufDB8fDB8fHww'); /* Change this URL to any image you like */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the game */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cell:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.status {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00; /* Button background color */
+    color: black; /* Button text color */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd700; /* Change button color on hover */
+}
